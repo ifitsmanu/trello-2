@@ -30,6 +30,7 @@ npm install
 
 # Start the local server
 npm run dev
+```
 
 Then open http://localhost:3000 with your browser to see the result.
 
