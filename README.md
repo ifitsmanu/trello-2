@@ -1,35 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Trello-2.0 Next.js, Zustand, Drag'n'Drop and Appwrite with TypeScript
 
-## Getting Started
+This repository holds the code for an advanced Trello clone built using Next.js, Zustand for state management, a beautiful Drag'n'Drop interface, and Appwrite as backend, all powered by TypeScript.
 
-First, run the development server:
+## Project Description
+
+This project is a feature-rich Trello clone with a clean and intuitive interface. It offers similar functionalities that you would expect from a project management tool. It includes features like creating boards, adding lists within boards, creating cards under lists, and moving cards from one list to another with a smooth drag and drop experience. All these features are built using modern tech stack for the best performance and user experience.
+
+## Tech Stack
+
+1. **Next.js**: A React framework for building JavaScript applications with server-side rendering and generating static websites for React-based web applications.
+2. **Zustand**: A small, fast, and scaleable bearbones state-management solution.
+3. **Drag'n'Drop**: This functionality makes it easy to move tasks/cards around for a more dynamic and intuitive project management.
+4. **Appwrite**: A secure end-to-end backend server for Web, Mobile, and Flutter developers to help build scalable apps.
+5. **TypeScript**: A statically typed superset of JavaScript that adds optional types. It provides enhanced code quality and understandability.
+
+## Installation and Usage
+
+Follow these steps to install and use this project:
 
 ```bash
+# Clone the repository
+git clone https://github.com/ifitsmanu/trello-2.git
+
+# Navigate to the project folder
+cd trello-2-nextjs-13-3.4-gpt-zustand-dragndrop-appwrite-typescript-main
+
+# Install the required packages
+npm install
+
+# Start the local server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
+We appreciate all contributions. If you're planning to contribute back, please create a pull request for your changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+License
+This project is licensed under the MIT License - see the LICENSE file for more details.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# trello-2
